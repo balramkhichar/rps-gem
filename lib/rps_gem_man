@@ -1,0 +1,13 @@
+.TH man 1 "16 Dec 2014" "1.0.2" "Let's Play RPS"
+.SH NAME
+play-rps \- Gem to play Command-line Rock, Paper and Scissors game
+.SH SYNOPSIS
+play-rps rock|paper|scissor
+.SH DESCRIPTION
+It is a simple Rock, Paper and Scissors game. You have to choose an option between rock, paper and scissor to play the game.
+.SH OPTIONS
+-e Exapmle: "play-rps rock"
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Balram Khichar (balram@codebrahma.com)

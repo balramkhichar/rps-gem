@@ -6,6 +6,8 @@ go = RpsGem::LetsPlay.new
 
 if(ARGV[0].nil?)
   puts "Make a choice"
+elsif ARGV[0].eql?("-e")
+  RpsGem::LetsPlay.example
 else
   puts go.play(ARGV[0])
 end

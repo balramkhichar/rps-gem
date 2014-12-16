@@ -12,8 +12,8 @@ describe "#play" do
 end
 
 describe "#winner" do
-  it "returns the winning choice" do
+  it "returns true or false" do
     letsplay = RpsGem::LetsPlay.new
-    expect(letsplay.winner("rock","paper")).to include("paper")
+    expect(letsplay.winner("paper","rock")).to be true
   end
 end
