@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'rps_gem'
+
+go = RpsGem::LetsPlay.new
+
+if(ARGV[0].nil?)
+  puts "Make a choice"
+else
+  puts go.play(ARGV[0])
+end

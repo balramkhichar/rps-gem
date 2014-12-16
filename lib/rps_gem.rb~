@@ -1,0 +1,8 @@
+module RpsGem
+  class LetsPlay
+    def play(x=nil)
+
+      puts "YOU ARE AWESOME!!"
+    end
+  end
+end
