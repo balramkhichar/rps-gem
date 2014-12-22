@@ -8,8 +8,8 @@ You can look for manual using `play-rps -e`
 
 Example `play-rps rock` . It will give you the following output:
 
-       `Computer played scissors`
-
-       `You Won!`
+       Computer played scissors
+       
+       You Won!
 
 I also added a spec to test all the possible conditions. You can find the spec file in /specs directory. Further you can also check the repo on github https://github.com/balramkhichar/rps-gem. You are welcomed to contribute to it there.
