@@ -6,7 +6,7 @@ Usage play-rps rock|paper|scissor
 
 You can look for manual using play-rps -e
 
-Example play-rps rock . It will give you the following output:
+Example `play-rps rock` . It will give you the following output:
 
        `Computer played scissors`
 
